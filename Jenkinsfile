@@ -10,7 +10,7 @@ pipeline {
       stage('Test') {
                     steps {
                         echo 'test started'
-                        bat 'npm run test'
+                        bat 'npm run test1'
                         echo 'test ended'
                     }
                 }
